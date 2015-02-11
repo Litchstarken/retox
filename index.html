@@ -118,8 +118,6 @@
 <!-- Reveal Modals end -->
 		</article>
 
-
-
 		<article class="small-12 medium-12 large-4 columns">
 			<h2>
 				A quick reminder for you...
@@ -128,8 +126,6 @@
 			Do not take Retox-A if you are allergic to any of the ingredients in Retox-A <em>(see Medication Guide for ingredients)</em> or if you had an allergic reaction to any other botulinum toxin product.</p> 
       <!-- Triggers the modals -->
       <a href="#" data-reveal-id="myModal"class="radius button" Modal in a modal&hellip;>Read More</a>
-
-
 
 <div id="myModal" class="reveal-modal" data-reveal>
   <h2>Be Honest.</h2>
@@ -155,73 +151,11 @@
 
 <a name="contact"></a> 
 
-<form id="contactform" action="form-to-email.php" method="post" enctype="text/plain"  data-abide>
 
-  <div class="row">
-    <div class="large-12 columns">
-    	<br>
-      <label>Your Name <small>required</small>
-      	<br>
-      	<input type="text" required name="Name" placeholder="Full name"/>
-      </label>
-      <small class="error">Your name is required.</small>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-4 columns">
-      <label>Telephone number<small>required</small>
-        <input type="tel" required name="Telephone number" placeholder="Personal phone number" />
-      </label>
-      <small class="error">Your Telephone number is required.</small>
-    </div>
-    <div class="large-4 columns">
-      <label>Work number
-        <input type="text" name="Work number" placeholder="Office number" />
-      </label>
-    </div>
-    <div class="large-4 columns">
-      <div class="row collapse">
-        <label>Email <small>required</small>
-        <div class="large-12 columns">
-        <input type="email"  required  name="E-mail" placeholder="email address"/>
-          
-    </label>
-    <small class="error">An email address is required.</small>
-  </div>
+<iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://secure.jotformz.com/form/50415163417650" frameborder="0" style="width:100%; height:487px; border:none;" scrolling="no"></iframe>
+<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;case "collapseErrorPage":if (iframe.clientHeight > window.innerHeight) {iframe.style.height = window.innerHeight + "px";}break;case "reloadPage":window.location.reload();break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
 
-        </div>
-        </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <label>Let us know who you are.
-        <select>
-          <option value="husker">Client</option>
-          <option value="starbuck">Reseller</option>
-          <option value="hotdog">Specialist</option>
-          <option value="apollo">I´m just curious</option>
-        </select>
-      </label>
-    </div>
-  </div>
-    <div class="row">
-    <div class="large-12 columns">
-      <label>Comment
-           
-        <textarea placeholder="Your opinion is very important for us.">
-        </textarea>
-        <input type="submit" value="Send" class="button radius"/>
-        <input type="reset" value="Reset" class="button radius"/>
-      </label>
-    </div>
-  </div>
-<script>
-function myFunction() {
-    document.getElementById("contactform").submit();
-}
-</script>
-</form>
+
 
 <footer>
 		<p>
