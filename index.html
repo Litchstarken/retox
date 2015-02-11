@@ -7,13 +7,7 @@
 	<link rel="stylesheet" href="foundation/css/foundation.css"/>
     <script src="foundation/js/vendor/modernizr.js"></script>
 	
-
-
-
-
-
-
-
+ 
 </head>
 <body>
 
@@ -24,7 +18,7 @@
     <img src="./foundation/img/foundation-icons/svgs/fi-home.svg" >
     <label id='itemlabel1'>Home</label>
     </a>
-  <a class="item" aria-labelledby="#itemlabel2">
+  <a href="gallery.html" class="item" aria-labelledby="#itemlabel2">
     <img src="./foundation/img/foundation-icons/svgs/fi-photo.svg" >
     <label id='itemlabel2'>Gallery</label>
   </a>
@@ -131,7 +125,7 @@
 				A quick reminder for you...
 			</h2>
 			<p>
-			Do not take Retox-A if you: are allergic to any of the ingredients in Retox-A (see Medication Guide for ingredients); had an allergic reaction to any other botulinum toxin product.</p> 
+			Do not take Retox-A if you are allergic to any of the ingredients in Retox-A <em>(see Medication Guide for ingredients)</em> or if you had an allergic reaction to any other botulinum toxin product.</p> 
       <!-- Triggers the modals -->
       <a href="#" data-reveal-id="myModal"class="radius button" Modal in a modal&hellip;>Read More</a>
 
@@ -157,11 +151,11 @@
 
 <hr class="row">
 <br>
-<h5 class="row"><p><em>If you want more infomation about the product or if you want to become a reseller please fill up the form below and one of our representatives will contact you as soon as possible</em></p></h5>
+<h5 class="row"><p><em>If you want more infomation about the product or if you want to become a reseller please fill up the form below and one of our representatives will contact you as soon as possible.</em></p></h5>
 
 <a name="contact"></a> 
 
-<form name="myform" action="MAILTO:johnjcastillo@gmail.com" method="post" enctype="text/plain"  data-abide>
+<form id="myform" action="MAILTO:johnjcastillo@gmail.com" method="post" enctype="text/plain"  data-abide>
 
   <div class="row">
     <div class="large-12 columns">
@@ -201,7 +195,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-      <label>Letus know who you are.
+      <label>Let us know who you are.
         <select>
           <option value="husker">Client</option>
           <option value="starbuck">Reseller</option>
@@ -238,9 +232,10 @@
     <script src="foundation/js/foundation/foundation.js"></script>
     <script src="foundation/js/foundation/foundation.abide.js"></script>
 
-    <script>
+   <script>
       $(document).foundation();
     </script>
+
 
 </body>
 </html>
