@@ -15,7 +15,7 @@
 		
 	<div class="icon-bar four-up" role="navigation">
   <a href="index.html"class="item" aria-labelledby="#itemlabel1">
-    <img src="./foundation/img/foundation-icons/svgs/fi-home.svg" >
+     <img src="./foundation/img/foundation-icons/svgs/fi-home.svg" style"color:red">
     <label id='itemlabel1'>Home</label>
     </a>
   <a href="gallery.html" class="item" aria-labelledby="#itemlabel2">
@@ -155,7 +155,7 @@
 
 <a name="contact"></a> 
 
-<form id="myform" action="MAILTO:johnjcastillo@gmail.com" method="post" enctype="text/plain"  data-abide>
+<form id="contactform" action="form-to-email.php" method="post" enctype="text/plain"  data-abide>
 
   <div class="row">
     <div class="large-12 columns">
@@ -170,7 +170,7 @@
   <div class="row">
     <div class="large-4 columns">
       <label>Telephone number<small>required</small>
-        <input type="number" required name="Telephone number" placeholder="Personal phone number" />
+        <input type="tel" required name="Telephone number" placeholder="Personal phone number" />
       </label>
       <small class="error">Your Telephone number is required.</small>
     </div>
@@ -211,11 +211,12 @@
            
         <textarea placeholder="Your opinion is very important for us.">
         </textarea>
-        <input type="submit" value="Send" class="button radius">
-        <input type="reset" value="Reset" class="button radius">
+        <input type="submit" value="Send" class="button radius"/>
+        <input type="reset" value="Reset" class="button radius"/>
       </label>
     </div>
   </div>
+
 </form>
 
 <footer>
@@ -231,6 +232,7 @@
     <script src="foundation/js/foundation.min.js"></script>
     <script src="foundation/js/foundation/foundation.js"></script>
     <script src="foundation/js/foundation/foundation.abide.js"></script>
+    <script src="foundation/img/foundation-icons.[eot/ttf/svg/woff]"></script>
 
    <script>
       $(document).foundation();
