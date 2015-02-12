@@ -1793,7 +1793,7 @@ meta.foundation-mq-topbar {
           width: 16px; }
 
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
-          box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
+          box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF; }
   .top-bar.expanded {
     height: auto;
     background: transparent; }
@@ -2040,7 +2040,7 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; }
 
   .top-bar-section {
-    transition: none 0 0;
+    transition: none;
     left: 0 !important; }
     .top-bar-section ul {
       width: auto;
