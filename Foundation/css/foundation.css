@@ -6211,8 +6211,10 @@ footer
   background:#22bce0;
   text-align:center;
   padding:0.5em;
+  
 
 }
+
 footer p:first-child
 {
 margin:0;
@@ -6229,4 +6231,13 @@ footer p:last-child:before
 footer p:last-child:after
 {
   content:"-";
+}
+
+
+#b-1{
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: block;
+  border:1px solid black;
 }
