@@ -185,6 +185,7 @@ select {
   .small-push-1 {
     position: relative;
     left: 8.33333%;
+    left: 8.33333%;
     right: auto; }
 
   .small-pull-1 {
@@ -6233,46 +6234,64 @@ footer p:last-child:after
   content:"-";
 }
 
-
-#b-1{
-  background-color: black;
-  width: 100%;
-  color: white;
-  display: block;
-  border:1px solid black;
+.seccion1{
+  position: relative;
 }
+
 
 .texto_1{
   position: absolute;
+  top:15px;
+  left: 150px;
   color: white;
-  top: 8em;
-  left: 25%;
-  right: 65%;
-
+  text-align: center;
+}
+.texto_2{
+position: absolute;
+color: white;
+text-align: center;
+top: auto;
+float: left;
 }
 
 
-
-#section > img {
-  padding: 3em;
-  margin-left: 5%;
-}
 
 #section3{
-  background-color: black;
   width: 100%;
-  height:600px;
+  position: relative;
+  
 }
 
 #section4{
-  background-color: red;
+  background-color: lightgray;
   width: 100%;
   height:600px;
 }
 
 .container1pro{
-  width: 1170px;
-  margin:0px auto;
+  width: 100%;
   position: relative;
   background-color: #285689;
 }
+
+
+.imagenPeque {
+border-radius: 50%;
+margin-left: 4rem;
+
+ 
+}
+.titulo_section3{
+  text-align: center;
+  text-decoration: none;
+}
+
+.section2{
+  position: relative;
+}
+.section .pTable{
+position: absolute;
+  margin-left: 30%;
+  margin-right:30%;
+}
+
