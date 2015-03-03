@@ -6236,32 +6236,52 @@ footer p:last-child:after
 
 .seccion1{
   position: relative;
+  background-image: url(../img/secciones2.png) ;
+  width:100%;
+  
 }
+
 
 
 .texto_1{
-  position: absolute;
-  top:15px;
-  left: 150px;
   color: white;
   text-align: center;
+  font-size: 3.5rem;
+  font-family: Lora;
 }
 .texto_2{
-position: absolute;
 color: white;
-text-align: center;
-top: auto;
-float: left;
+text-align: justify;
+
+}
+
+.texto3{
+
+ text-align: center;
+  font-family: Lora;
 }
 
 
+.section2 {
+  z-index: -1;
+  margin-left: 35%;
+ 
+}
 
+.section2.pTable{
+
+ float: right;
+
+}
+
+
+/*
 #section3{
   width: 100%;
   position: relative;
   
 }
-
+*/
 #section4{
   background-color: lightgray;
   width: 100%;
@@ -6277,21 +6297,22 @@ float: left;
 
 .imagenPeque {
 border-radius: 50%;
-margin-left: 4rem;
+margin-left: 2rem;
 
- 
 }
+
 .titulo_section3{
   text-align: center;
   text-decoration: none;
+  font-family: Lora;
 }
-
-.section2{
-  position: relative;
+/*
+@media screen and (max-width: 768px){
+  .hideMobile{
+    display: none;
+  }
 }
-.section .pTable{
-position: absolute;
-  margin-left: 30%;
-  margin-right:30%;
+*/
+#b-1{
+  background-color: black;
 }
-
