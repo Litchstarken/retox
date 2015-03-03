@@ -6209,8 +6209,8 @@ th.hide-for-touch {
 footer
 {
   color: rgba(255,255,255,0.7);
-  background:#22bce0;
-  text-align:center;
+  background:#12263d;
+  text-align:left;
   padding:0.5em;
   
 
@@ -6222,17 +6222,10 @@ margin:0;
 }
 footer p:last-child
 {
-  margin-top:0;
-}
-footer p:last-child:before
-{
-  content:"-";
+margin-top:0;
 }
 
-footer p:last-child:after
-{
-  content:"-";
-}
+
 
 .seccion1{
   position: relative;
@@ -6241,18 +6234,16 @@ footer p:last-child:after
   
 }
 
-
-
 .texto_1{
   color: white;
-  text-align: center;
+  text-align: justify;
   font-size: 3.5rem;
   font-family: Lora;
 }
 .texto_2{
 color: white;
 text-align: justify;
-
+font-family: Lora;
 }
 
 .texto3{
@@ -6264,7 +6255,7 @@ text-align: justify;
 
 .section2 {
   z-index: -1;
-  margin-left: 35%;
+  margin-left: 25%;
  
 }
 
@@ -6315,4 +6306,11 @@ margin-left: 2rem;
 */
 #b-1{
   background-color: black;
+}
+
+.formContainer{
+  background-color: #e0e0e0;
+}
+.textoForm{
+  font-family: lora;
 }
