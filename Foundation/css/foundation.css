@@ -6239,7 +6239,9 @@ margin-top:0;
   text-align: justify;
   font-size: 3.5rem;
   font-family: Lora;
+  
 }
+
 .texto_2{
 color: white;
 text-align: justify;
@@ -6290,20 +6292,27 @@ font-family: Lora;
 border-radius: 50%;
 margin-left: 2rem;
 
+
+
+
 }
+
+.imagenPeque:hover{
+  cursor: pointer;
+  -webkit-transition: background 0.32 linear 0s, color 0.3s, linear 0s;
+  -moz-transition: background 0.32 linear 0s, color 0.3s, linear 0s;
+  -o-transition: background 0.32 linear 0s, color 0.3s, linear 0s;
+  transition: background 0.32 linear 0s, color 0.3s, linear 0s;
+
+}
+
 
 .titulo_section3{
   text-align: center;
   text-decoration: none;
   font-family: Lora;
 }
-/*
-@media screen and (max-width: 768px){
-  .hideMobile{
-    display: none;
-  }
-}
-*/
+
 #b-1{
   background-color: black;
 }
@@ -6314,3 +6323,5 @@ margin-left: 2rem;
 .textoForm{
   font-family: lora;
 }
+
+
