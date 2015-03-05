@@ -2956,7 +2956,9 @@ meta.foundation-mq-topbar {
         color: #FFFFFF;
         width: 100%;
         padding: 0.625rem 0.875rem;
-        font-size: 0.875rem; }
+        font-size: 0.875rem; 
+        text-align: center;
+      }
   .orbit-container .orbit-slide-number {
     position: absolute;
     top: 10px;
@@ -6254,7 +6256,7 @@ font-family: Lora;
   font-family: Lora;
 }
 
-
+/*
 .section2 {
   z-index: -1;
   margin-left: 25%;
@@ -6267,6 +6269,7 @@ font-family: Lora;
 
 }
 
+*/
 
 /*
 #section3{
@@ -6325,3 +6328,32 @@ margin-left: 2rem;
 }
 
 
+#section01{
+background: url(../img/bg04.jpg) 50% 0 no-repeat fixed;
+}
+#section02{
+ background: url(../img/bg02.jpg) 50% 0 no-repeat fixed; 
+}
+#section03{
+ background: url(../img/bg03.jpg) 50% 0 no-repeat fixed; 
+}
+#section01, #section02, #section03{
+
+  min-height: 700px;
+  margin:0px auto;
+  max-width: 1920px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+} 
+
+#section02, #section03{
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+-o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
